@@ -1,0 +1,13 @@
+.github {
+    grid-area: 1/3/2/4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: var(--edges);
+}
+
+.github img {
+    width: 35px;
+    height: auto;
+}

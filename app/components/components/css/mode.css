@@ -1,0 +1,12 @@
+.mode {
+    grid-area: 1/2/2/3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.mode img {
+    width: 20px;
+    height: auto;
+}

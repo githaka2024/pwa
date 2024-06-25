@@ -1,0 +1,24 @@
+:root {
+    --edges: clamp(15px, 10vw, 30px);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
