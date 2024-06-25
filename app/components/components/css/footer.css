@@ -1,0 +1,17 @@
+footer {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: var(--edges);
+    padding-left: var(--edges);
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}

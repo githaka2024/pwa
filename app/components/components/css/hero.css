@@ -1,0 +1,13 @@
+#hero {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: var(--edges);
+    padding-left: var(--edges);
+}
+
+#hero p {
+    font-size: 64px;
+}
